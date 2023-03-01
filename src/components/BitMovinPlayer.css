@@ -1,0 +1,115 @@
+.playerContent {
+  margin: 0rem;
+  font-family: "Work Sans";
+}
+
+.navbar {
+  height: 68px;
+}
+.navbar-logo {
+  background-image: url("/public/30_day_singer_logo_240.png");
+  width: 120px;
+  height: 38px;
+  background-size: 120px 38px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flexbox;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-logo {
+  background-image: url("/public/30_day_singer_logo_white.png");
+  width: 120px;
+  height: 38px;
+  background-size: 120px 38px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer p {
+  color: white;
+  text-align: left;
+  margin: 0;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.lesson-typograph {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.lesson-typograph h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  color: #2f9aff;
+}
+
+.playlist {
+  display: inline-flexbox;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.playlist .list-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+}
+
+.playlist .list-item .left-elements {
+  display: flex;
+  align-items: center; /* vertically center left elements */
+}
+
+.playlist .list-item .right-element {
+  margin-left: auto; /* push right element to the right */
+}
+
+.playlist .active {
+  background-color: white;
+}
+
+.playlist .list-item span {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.playlist .active span {
+  color: #2f9aff;
+  font-weight: bold;
+}
+
+.playlist .list-item:focus span {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.playlist .icon {
+  margin-right: 15px;
+}
+
+.playlist .active .icon {
+  color: #2f9aff;
+  font-weight: bold;
+}
